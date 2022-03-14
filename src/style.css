@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 650px;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em 0;
+}
+.nav--logo {
+  height: 30px;
+  object-fit: cover;
+  padding: 0 0.5em;
+}
+.nav--logo--text {
+  font-weight: 500;
+  letter-spacing: -0.075em;
+}
+
+.card--section {
+  display: flex;
+  padding: 1.5em;
+  /* flex-direction: column; */
+}
+
+.card--image {
+  height: 220px;
+  width: 165px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card--section--infos {
+  padding: 25px;
+}
+.card--section--location {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+}
+
+.location--text {
+  margin: 0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.location--link {
+  color: #918e9b;
+  /* text-decoration: none; */
+  font-size: 0.875rem;
+  letter-spacing: -1px;
+}
+
+.card--section--title {
+  margin: 0;
+  padding: 0.5em 0;
+  color: #2b283a;
+}
+
+.card--section--date {
+  display: flex;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.card--section--date p {
+  margin: 0;
+}
+
+.card--section--description {
+  font-size: 0.875rem;
+  color: #2b283a;
+}
